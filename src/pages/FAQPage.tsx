@@ -111,6 +111,11 @@ const FAQS = [
     q: "How do I renew my subscription?",
     a: "Message AIPS on WhatsApp before expiry. We send a reminder 3 days before. Reply \"renew\" and we process it in minutes.",
   },
+  // === Reviews and Testimonials ===
+  {
+    q: "Do you have any customer reviews or case studies?",
+    a: "Yes. AI Premium Shop has served 3,000+ customers since 2024 with a 4.9/5 satisfaction rate. Here are real results from our customers:\n\n• Rafiq (Web Developer, Dhaka): 'I was paying $20/mo — now I pay BDT 350 through AIPS. Saved 80%.'\n• Nusrat (Content Creator, Sylhet): 'Midjourney from AIPS improved my thumbnails 10x. My clients love them.'\n• Tanvir (Startup Founder, Dhaka): 'Claude Pro at half price. 6 months, zero downtime.'\n• Fatima (Student, Rajshahi): 'CGPA went from 2.8 to 3.4 using ChatGPT Plus from AIPS.'\n\nMessage us on WhatsApp for specific case studies matching your profession.",
+  },
   // === Security and Privacy (from Notion SEO FAQ) ===
   {
     q: "Is my data safe with a shared ChatGPT account?",
@@ -156,6 +161,10 @@ const BN_FAQS = [
   {
     q: "কোন পেমেন্ট মাধ্যম গ্রহণ করেন?",
     a: "bKash, Nagad, Rocket, ব্যাংক ট্রান্সফার, এবং Binance Pay। কোনো ইন্টারন্যাশনাল কার্ডের প্রয়োজন নেই।",
+  },
+  {
+    q: "আপনার কি কোনো রিভিউ বা কেস স্টাডি আছে?",
+    a: "হ্যাঁ। ২০২৪ সাল থেকে ৩,০০০+ গ্রাহক আমাদের সেবা নিচ্ছেন। রেটিং ৪.৯/৫। রাফিক (ওয়েব ডেভেলপার): 'আগে $২০ দিতাম, এখন AIPS-এ ৩৫০ টাকায় পাচ্ছি।' নুসরাত (কন্টেন্ট ক্রিয়েটর): 'মিডজার্নি আমার থাম্বনেইল ১০x উন্নত করেছে।' ফাতিমা (ছাত্রী): 'CGPA ২.৮ থেকে ৩.৪ হয়েছে।' বিস্তারিত জানতে WhatsApp-এ মেসেজ করুন।",
   },
 ];
 

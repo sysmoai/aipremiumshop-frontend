@@ -1,3 +1,32 @@
+# AI Premium Shop — robots.txt
+# AIO (AI Optimization) — Allow all legitimate AI crawlers
+
 User-agent: *
 Allow: /
 Sitemap: https://aipremiumshop.com/sitemap.xml
+
+# Allow AI assistant crawlers for AI Overview citations
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# Disallow admin pages
+User-agent: *
+Disallow: /admin/
