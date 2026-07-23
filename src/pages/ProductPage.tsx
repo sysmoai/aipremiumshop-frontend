@@ -16,7 +16,7 @@ import { schemaJson, breadcrumbSchema, faqSchema } from "@/utils/schemas";
 import productsData from "../../data/products.json";
 
 const WHATSAPP = "https://wa.me/8801865385348";
-const SITE = "https://aipremiumshop.com";
+const SITE = "https://aipremium.tools";
 
 interface Plan {
   planName: string;

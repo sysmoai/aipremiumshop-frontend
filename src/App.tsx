@@ -30,6 +30,7 @@ import SupportPage from "@/pages/SupportPage";
 import HowToOrderPage from "@/pages/HowToOrderPage";
 import BestAISubscriptionPage from "@/pages/BestAISubscriptionPage";
 import ProductPage from "@/pages/ProductPage";
+import CategoriesPage from "@/pages/CategoriesPage";
 
 const WHATSAPP = "https://wa.me/8801865385348?text=Hi%2C%20I%20want%20to%20order%20an%20AI%20subscription";
 
@@ -82,6 +83,8 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+
+      <Route path="/categories" component={CategoriesPage} />
 
       {/* Product catalog */}
       <Route path="/products" component={ProductsPage} />

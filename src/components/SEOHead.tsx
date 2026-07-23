@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const DEFAULT_OG_IMAGE = "https://aipremiumshop.com/images/og/default-og.png";
+const DEFAULT_OG_IMAGE = "https://aipremium.tools/og-image.png";
 
 interface SEOHeadProps {
   title: string;
@@ -10,7 +10,7 @@ interface SEOHeadProps {
   ogImage?: string;
 }
 
-const SITE_NAME = "AI Premium Shop";
+const SITE_NAME = "AIPT \u2014 AI Premium Tools";
 const DEFAULT_DESC =
   "Bangladesh's most trusted AI subscription shop. ChatGPT Plus from BDT 350, Google AI Pro BDT 500. Pay with bKash or Nagad. Delivered in minutes. our customers.";
 
@@ -22,7 +22,7 @@ export function SEOHead({
   ogImage = DEFAULT_OG_IMAGE,
 }: SEOHeadProps) {
   const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
-  const canonicalUrl = canonical ?? (ogUrl ?? "https://aipremiumshop.com/");
+  const canonicalUrl = canonical ?? (ogUrl ?? "https://aipremium.tools/");
 
   useEffect(() => {
     document.title = fullTitle;
@@ -31,7 +31,7 @@ export function SEOHead({
       let el = document.querySelector(sel);
       if (!el) {
         el = document.createElement("meta");
-        const [, attr, val] = sel.match(/\[(\w+[\w:]+)="([^"]+)"\]/) ?? [];
+        const [, attr, val] = sel.match(/\[(\w+[\w:]+)=\"([^\"]+)\"\]/) ?? [];
         if (attr && val) {
           (el as HTMLMetaElement).setAttribute(attr, val);
           document.head.appendChild(el);
@@ -66,7 +66,7 @@ export function SEOHead({
     canon.setAttribute("href", canonicalUrl);
 
     return () => {
-      document.title = "AI Premium Shop";
+      document.title = "AIPT \u2014 AI Premium Tools";
     };
   }, [fullTitle, description, canonicalUrl, ogImage]);
 
