@@ -12,7 +12,7 @@ const STATS = [
   { icon: Users, value: "Since 2024", label: "Served since 2024" },
   { icon: Package, value: "56", label: "AI tools available" },
   { icon: Layers, value: "19", label: "Leading brands" },
-  { icon: Calendar, value: "2022", label: "Founded" },
+  { icon: Calendar, value: "2024", label: "Founded" },
   { icon: Clock, value: "Business Hours", label: "WhatsApp response" },
 ];
 
